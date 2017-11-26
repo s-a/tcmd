@@ -1,6 +1,6 @@
 {
   "name": "tcmd",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Start Total Comander from shell",
   "main": "index.js",
   "bin": {
