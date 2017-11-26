@@ -1,0 +1,27 @@
+{
+  "name": "tcmd",
+  "version": "1.0.0",
+  "description": "Start Total Comander from shell",
+  "main": "index.js",
+  "bin": {
+    "tcmd": "index.js",
+    "tc": "index.js"
+  },
+  "scripts": {
+    "bump": "npm version patch && git push && git push --tags && npm publish",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/s-a/tcmd.git"
+  },
+  "author": "s-a",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/s-a/tcmd/issues"
+  },
+  "homepage": "https://github.com/s-a/tcmd#readme",
+  "dependencies": {
+    "winreg": "^1.2.4"
+  }
+}
